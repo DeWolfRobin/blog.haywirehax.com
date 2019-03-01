@@ -6,7 +6,7 @@ description: The story of my first bounty
 
 ## Simple start
 
-My first bug bounty was one that really surprised me. I am a cybercrime student so I'm used to 'heavy caliber' vulnerabilities like buffer overflow and code injection and as usual I was looking way to hard for something. Then when I was so determent I was never gonna find something, I went to example.com and I tried some stupid things while I was eating at school with friends. 
+My first bugbounty was one that really surprised me. I am a cybercrime student so I'm used to 'heavy caliber' vulnerabilities like buffer overflow and code injection and as usual I was looking way to hard for something. Then when I was so determent I was never gonna find something, I went to example.com and I tried some stupid things while I was eating at school with friends. 
 
 I tried example.com for 30 minutes and whilst playing around I found 2 things! There was improper access control and XSS.
 
