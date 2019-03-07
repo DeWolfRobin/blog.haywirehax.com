@@ -22,6 +22,7 @@ This can be done by physically placing the King in place \(e.g. a WiFiPinapple b
 * WiFiPinapple \(P\)
 * Via BashBunny or LanTurtle as an Ethernet Adaptor \(P\)
 * Service on a victim \(R\)
+* Gain access to Firewall \(R\)
 
 ## Firewall
 
