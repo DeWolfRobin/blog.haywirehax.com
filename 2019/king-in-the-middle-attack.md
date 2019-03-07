@@ -2,7 +2,7 @@
 
 ## Overview
 
-![King In The Middle Network](../.gitbook/assets/king-in-the-middle.png)
+![King In The Middle Network](../.gitbook/assets/king-in-the-middle-2.png)
 
 ## King
 
