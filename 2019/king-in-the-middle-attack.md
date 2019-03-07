@@ -14,6 +14,14 @@ The trick with King-In-The-Middle is that you take the network to the victim, me
 
 This can be done by physically placing the King in place \(e.g. a WiFiPinapple being installed as a Rogue AP\) or by PWNing a victim on the network remotely.
 
+### Examples of a King Device
+
+> P stands for Physical access and R stands for Remote access.
+
+* Raspberry pi \(P\)
+* WiFiPinapple \(P\)
+* Service on a victim \(R\)
+
 ## Firewall
 
 > This is placed so malicious content won't leave the infected network.And it can also be used to stay undetected using reverse connections.
