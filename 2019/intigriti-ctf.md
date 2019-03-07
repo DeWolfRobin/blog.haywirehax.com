@@ -62,7 +62,7 @@ for ($i=1; $i < 442; $i++) {
 I removed the first '0' from the images 1\_01 through 1\_09.  
 When you use the scripts it generates a nice qr-code!
 
-![QR-code](.gitbook/assets/qr.png)
+![QR-code](../.gitbook/assets/qr.png)
 
 ### FLAG
 
