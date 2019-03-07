@@ -40,6 +40,20 @@ This can be done by physically placing the King in place \(e.g. a WiFiPinapple b
 
 > Used for phishing, this will spoof adresses to the payload server so the victim thinks he's on the right server but is connected to the payload server.
 
+This will enhance the stealth of our phishing attacks. If for example we use the payloads server to serve phishing sites, we can mask the directories with real hostnames: 
+
+{% hint style="info" %}
+## Example
+
+### dns config
+
+`127.0.0.1/facebookphish facebook.com`
+
+`127.0.0.1/googlephish google.com`
+
+When visiting google.com the victim will instead be redirected to the locally hosted site.
+{% endhint %}
+
 ## Internet Connection
 
 > After everything is logged and spoofed, the victim gets an internet connection so everything works without raising suspision.
