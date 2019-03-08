@@ -47,9 +47,18 @@ This will enhance the stealth of our phishing attacks. If for example we use the
 
 ### dns config
 
-`127.0.0.1/facebookphish facebook.com`
+`127.0.0.1 facebook.com google.com`
 
-`127.0.0.1/googlephish google.com`
+### main index
+
+`<?php $URI = $_SERVER['HTTP_HOST']; require_once "$URI/index.html"; ?>`
+
+### sub pages
+
+* facebook.com
+  * index.html
+* google.com
+  * index.html
 
 When visiting google.com the victim will instead be redirected to the locally hosted site.
 {% endhint %}
