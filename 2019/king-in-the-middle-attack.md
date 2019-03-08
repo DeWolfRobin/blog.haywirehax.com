@@ -4,6 +4,10 @@
 
 ![King In The Middle Network](../.gitbook/assets/king-in-the-middle-5.png)
 
+### Technical implementation
+
+{% embed url="https://github.com/DeWolfRobin/KingInTheMiddle" %}
+
 ## King
 
 > This is the instance that will connect the victim to the King-in-the-Middle network. This can be wathever you want but in this article I will assume it is a normal Linux machine.
