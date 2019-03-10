@@ -47,24 +47,13 @@ This can be done by physically placing the King in place \(e.g. a WiFiPinapple b
 This will enhance the stealth of our phishing attacks. If for example we use the payloads server to serve phishing sites, we can mask the directories with real hostnames: 
 
 {% hint style="info" %}
-## Example
-
-### dns config
+## `Example config`
 
 `127.0.0.1 facebook.com google.com`
+{% endhint %}
 
-### main index
-
-`<?php $URI = $_SERVER['HTTP_HOST']; require_once "$URI/index.html"; ?>`
-
-### sub pages
-
-* facebook.com
-  * index.html
-* google.com
-  * index.html
-
-When visiting google.com the victim will instead be redirected to the locally hosted site.
+{% hint style="danger" %}
+Due to HSTS some sites may not be spoofable
 {% endhint %}
 
 ## Internet Connection
