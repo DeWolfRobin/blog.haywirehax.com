@@ -1,7 +1,3 @@
----
-description: Intigriti had a Twitter CTF and here's my write-up
----
-
 # Intigriti CTF
 
 ## The challenge
@@ -34,7 +30,7 @@ I instantly saw that was base64 and decoded it only to find an URL for the next 
 So now I have a password-protected zip and I need a password.  
 After a lot of guessing and a good night sleep, I found out I didn't test the banner of the twitter account I found in the tweet.
 
-On mobile: copy the tweet and paste it to find a twitter account URL: 
+On mobile: copy the tweet and paste it to find a twitter account URL:
 
 {% embed url="https://twitter.com/WhereIsTheFlag" %}
 
@@ -68,4 +64,3 @@ When you use the scripts it generates a nice qr-code!
 
 When scanned you see this:  
 `flag:YOUWINTIGRITI`
-
