@@ -10,4 +10,5 @@
 
 * [Intigriti CTF](2019/intigriti-ctf.md)
 * [King In The Middle Attack](2019/king-in-the-middle-attack.md)
+* [Red Queen C&C](2019/red-queen-c-and-c.md)
 

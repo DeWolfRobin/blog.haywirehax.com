@@ -2,7 +2,7 @@
 
 ## The challenge
 
-{% embed url="https://twitter.com/intigriti/status/1082979668972748803" %}
+{% embed url="https://twitter.com/intigriti/status/1082979668972748803" caption="" %}
 
 ## The solution
 
@@ -19,11 +19,11 @@ The PDF said:
 `aHR0cHM6Ly9nby5pbnRpZ3JpdGkuY29tLzA3YjBmTDI0bGttdmE=`  
 Source for this cool technique:
 
-{% embed url="https://twitter.com/David3141593/status/1057042085029822464" %}
+{% embed url="https://twitter.com/David3141593/status/1057042085029822464" caption="" %}
 
 I instantly saw that was base64 and decoded it only to find an URL for the next step:
 
-{% embed url="https://go.intigriti.com/07b0fL24lkmva" %}
+{% embed url="https://go.intigriti.com/07b0fL24lkmva" caption="" %}
 
 ### Step 2
 
@@ -32,11 +32,11 @@ After a lot of guessing and a good night sleep, I found out I didn't test the ba
 
 On mobile: copy the tweet and paste it to find a twitter account URL:
 
-{% embed url="https://twitter.com/WhereIsTheFlag" %}
+{% embed url="https://twitter.com/WhereIsTheFlag" caption="" %}
 
 So I wanted to download the banner and I inspect the element on twitter only to find that the password is there!
 
-{% embed url="https://pbs.twimg.com/profile\_banners/855398308302520322/1546517083/1500x500" %}
+{% embed url="https://pbs.twimg.com/profile\_banners/855398308302520322/1546517083/1500x500" caption="" %}
 
 ### Step 3
 
@@ -64,3 +64,4 @@ When you use the scripts it generates a nice qr-code!
 
 When scanned you see this:  
 `flag:YOUWINTIGRITI`
+
